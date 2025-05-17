@@ -12,9 +12,10 @@ const Header: React.FC<HeaderProps> = ({ showStats, onToggleStats }) => {
       <div className="container max-w-4xl mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <CheckCircle className="text-primary-500 w-8 h-8 mr-2" />
-          <h1 className="font-display font-bold text-2xl md:text-3xl text-gray-800">
+         <a href="/"> <h1 className="font-display font-bold text-2xl md:text-3xl text-gray-800">
             Vibe Check
           </h1>
+          </a>
         </div>
         <button
           onClick={onToggleStats}
